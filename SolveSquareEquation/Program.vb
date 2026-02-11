@@ -3,7 +3,7 @@ Imports System
 Module Program
 	Sub Main(args As String())
 		Console.Clear()
-		Console.WriteLine("Input coefficients of lineal equation")
+		Console.WriteLine("Input coefficients of square equation")
 		Dim a As Single
 		Single.TryParse(Console.ReadLine(), a)
 		Dim b As Single
